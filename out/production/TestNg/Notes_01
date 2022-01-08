@@ -1,0 +1,34 @@
+Recap: Class 1
+
+What is testNG?
+-is a tool we use to automate applications.
+
+Why we need testNG if we have selenium?
+-reports
+-parallel execution
+-grouping
+-data driven testing
+-multiple options for execution
+
+@Test annotation- this is the main annotation of testing to execute our TC
+
+it executes test cases in alphabetical order by default
+
+@before method as a precondition that executes before every TC
+@after method  as a precondition that executes after every TC
+
+ Class 2
+ User story 1234- Admin user should be able to login with valid credentials
+ Priority
+
+Assertions:
+Hard assertions--we use for small execution bc its stops execution if encounters error
+Soft assertions-- we use to execute complete
+to get the collective failure of test case
+
+mac users - option+cmd+L
+
+Testing.xml where highest level is suite -->test-->packages-->class-->methods(@Test)
+groups-we use different groups to separate the test cases
+
+alwaysrun = true - we use this attribute to execute the pre and post condition from testng.xml file
